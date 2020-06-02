@@ -1,0 +1,13 @@
+name: jonnyeom-drupal
+recipe: drupal8
+config:
+  php: '7.4'
+  via: nginx
+  webroot: web
+  database: mysql:5.7
+  drush: ^8
+  xdebug: false
+services:
+  appserver:
+    build:
+      - composer install
