@@ -45,6 +45,8 @@
 /web/web.config
 
 /vendor
+/web/modules/contrib
 .idea
+!/web/sites/default/example.settings.local.php
 
 
